@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    //앞으로는 이렇게 변수 선언하는 걸로.
     double ft = 30.48, mi = 160934;
 
     cout << fixed;
