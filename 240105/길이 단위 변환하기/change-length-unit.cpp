@@ -2,9 +2,7 @@
 using namespace std;
 
 int main() {
-    double ft, mi;
-    ft = 30.48;
-    mi = 160934;
+    double ft = 31, mi = 160934;
 
     cout << fixed;
     cout.precision(1);
