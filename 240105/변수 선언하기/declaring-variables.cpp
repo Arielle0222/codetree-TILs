@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int a = 3;
-    char b = 'C';
+    char b = 'C'; //문자는 char로 선언하기
 
     cout << a << endl;
     cout << b;
