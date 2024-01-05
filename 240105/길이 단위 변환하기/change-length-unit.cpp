@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     double ft = 30.48;
-    float mi = 160934;
+    double mi = 160934;
 
     cout << fixed;
     cout.precision(1);
