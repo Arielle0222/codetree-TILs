@@ -10,4 +10,4 @@
 ## 💡Schedule
  * 2024.1.5 : NOVICE LOW - 출력
  * 2024.1.5 : NOVICE LOW - 입출력
- * 2024.1.5 : NOVICE LOW - 연산자
+ * 2024.1.6 : NOVICE LOW - 연산자/조건문
