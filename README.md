@@ -3,3 +3,6 @@
 <div align="start">
 </div>
 <br>
+
+## 💡Language
+ c++ & python
