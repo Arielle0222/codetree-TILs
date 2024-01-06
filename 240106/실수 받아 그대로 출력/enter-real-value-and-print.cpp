@@ -4,8 +4,9 @@ using namespace std;
 //실수는 double, 문자는char, 문자열은 string
 int main() {
     double n;
+    cin >> n;
     
-    cout.fixed;
+    cout<<fixed;
     cout.precision(2);
 
     cout << n;
