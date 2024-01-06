@@ -9,5 +9,5 @@
  * c++ & python
 ## 💡Schedule
  * 2024.1.5 : NOVICE LOW - 출력
- * 2024.1.5 : NOVICE LOW - 입출력
- * 2024.1.6 : NOVICE LOW - 연산자/조건문
+ * 2024.1.6 : NOVICE LOW - 입출력
+ * 2024.1.7 : NOVICE LOW - 연산자/조건문
