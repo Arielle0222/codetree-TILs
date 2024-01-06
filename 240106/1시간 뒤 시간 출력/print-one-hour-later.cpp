@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int h,m;
     cin >> h;
-    cin.get() // 숫자 사이 문자열 무시
+    cin.get(); // 숫자 사이 문자열 무시
     cin >> m;
 
     cout << h+1 << ":" << m;
