@@ -1,9 +1,10 @@
 #include <iostream>
-using namespacce std;
+#include <string>
+using namespace std;
 
 int main() {
     int y,m,d;
-    char s = "."
+    char s = '.'
     cin >> y;
     cin.get();
     cin >> m;
