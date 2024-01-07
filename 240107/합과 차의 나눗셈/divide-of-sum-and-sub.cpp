@@ -8,7 +8,7 @@ int main() {
     cout.fixed;
     cout << precision(2);
 
-    cout << (a+b) / (a-b);
+    cout << (double)(a+b) / (a-b);
     // 여기에 코드를 작성해주세요.
     return 0;
 }
