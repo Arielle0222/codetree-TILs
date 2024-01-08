@@ -5,9 +5,10 @@ int main() {
     int s;
     cin >> s;
 
-    s = (s == 100)? "pass" : "failure";
+    string result = (s == 100) ? "pass" : "failure";
 
-    cout << s;
+    cout << result;
+
     // 여기에 코드를 작성해주세요.
     return 0;
 }
