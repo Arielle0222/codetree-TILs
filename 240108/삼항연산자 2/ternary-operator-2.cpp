@@ -5,6 +5,7 @@ int main() {
     int a;
     cin >> a;
 
+    // char 일때는 ''로 써야 함 "" 안됨
     char result = a == 1 ? 't' : 'f';
 
     cout << result;
