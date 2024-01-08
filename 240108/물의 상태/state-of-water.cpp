@@ -8,7 +8,7 @@ int main() {
 	if(t<0){
 		cout << "ice";
 	}
-	if else(t>=100){
+	else if (t>=100){
 		cout << "vapor";
 	}
 	else{
