@@ -5,7 +5,7 @@ int main() {
     int n;
     cout >> n;
 
-    for(i=n;i<=100;i++){
+    for(int i=n;i<=100;i++){
         cout << i << " ";
     }
     // 여기에 코드를 작성해주세요.
