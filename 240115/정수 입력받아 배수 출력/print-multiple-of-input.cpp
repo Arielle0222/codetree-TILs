@@ -5,8 +5,9 @@ int main() {
     int n;
     cin >> n;
 
-    for(int i = n; i<5*n+1; i+=n){
+    for (int i=n ; i<=n*5; i+=n){
         cout << i << " ";
     }
+    // 여기에 코드를 작성해주세요.
     return 0;
 }
