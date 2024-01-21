@@ -3,10 +3,11 @@ using namespace std;
 
 int main() {
     int n;
+    int i=3;
 
     cin >> n;
 
-    while(int i<=n){
+    while(i<=n){
         cout << i << " ";
         i+=3;
     }
