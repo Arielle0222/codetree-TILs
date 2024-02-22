@@ -3,11 +3,11 @@ using namespace std;
 
 int main() {
     int a,b;
-    cin << a << b;
+    cin >> a >> b;
 
     if(a>0){
         for(int i=1 ; i<=b ; i++){
-            cout << i;
+            cout << a;
         }
     }
     else{
