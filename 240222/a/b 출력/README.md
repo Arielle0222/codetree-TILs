@@ -1,5 +1,9 @@
 # [a/b 출력 ](https://www.codetree.ai/missions/4/problems/a-divide-b)
 
+‼️ **[풀이]
+a/b 에서 소숫점을 수학적으로 구하는 방법은 a를b로 나눈 나머지에 
+10을 곱한 값을 b로 나눴을 때의 몫을 순서대로 적는 걸 반복**
+
 |유형|문제 경험치|난이도|
 |---|---|---|
 |[Novice Low / 단순 반복문 / n번 반복하기](https://www.codetree.ai/missions?missionId=4)|20xp|![어려움][hard]|
