@@ -7,7 +7,7 @@ int main() {
     cin >> a >> b;
     i=a;
 
-    while(i>=10){
+    while(i>=b){
         cout << i << " ";
         i-=2;
     }
