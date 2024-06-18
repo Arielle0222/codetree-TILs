@@ -4,4 +4,4 @@ a = int(arr[0])
 b = int(arr[1])
 
 
-print (m if a>b else b)
+print(b if b>a else a)
