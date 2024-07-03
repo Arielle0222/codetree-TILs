@@ -3,7 +3,7 @@ sum_age = 0
 
 while True:
     n = int(input())
-    if n % 20 <=9 :
+    if (n % 20) <=9 :
         cnt+=1
         sum_age+=n
 
