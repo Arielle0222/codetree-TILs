@@ -1,4 +1,4 @@
-# [1까지 나누기 ](https://www.codetree.ai/missions/4/problems/divide-by-1)
+# [1까지 나누기🔥 ](https://www.codetree.ai/missions/4/problems/divide-by-1)
 
 |유형|문제 경험치|난이도|
 |---|---|---|
