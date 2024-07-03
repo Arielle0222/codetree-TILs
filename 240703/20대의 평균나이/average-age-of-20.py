@@ -8,5 +8,5 @@ while True:
         sum_age+=n
 
     elif n >=30 :
-        print(f"{sum_age/cnt:.2f}")    
+        print(f"{sum_age/cnt:.2f}")
         break
