@@ -26,7 +26,7 @@ for i in range(n):
         print("*", end=" ")
     print() #3행 까지
 
-for i in range(3, -1, -1):
+for i in range(n-2, -1, -1):
     for j in range(i+1):
        print("*", end=" ")
     print() #3행 까지
