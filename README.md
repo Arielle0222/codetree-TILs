@@ -1,4 +1,4 @@
 ## 😎 Language
- * c++
+ * c
  * python
 
