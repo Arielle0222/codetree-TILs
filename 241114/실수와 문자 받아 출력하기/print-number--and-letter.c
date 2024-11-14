@@ -9,8 +9,6 @@ int main() {
     scanf("%c",&c);
     scanf("%lf\n%lf",&a,&b);
 
-    printf("%c\n",c);
-    printf("%.2lf\n",a);
-    printf("%.2lf",b);
+    printf("%c\n%.2lf\n%.2lf",c,a,b);
     return 0;
 }
