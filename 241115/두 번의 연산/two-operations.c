@@ -12,8 +12,8 @@ int main() {
 
     if (a%3==0) {
         a /=3;
-        
+        printf("%d",a);
     }
-    printf("%d",a);
+   
     return 0;
 }
