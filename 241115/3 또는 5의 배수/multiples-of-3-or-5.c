@@ -13,12 +13,12 @@ int main() {
     else{
         printf("No\n");
     }
-    
+
      if (a%5==0){
-        printf("YES\n");
+        printf("YES");
     }
     else{
-        printf("No\n");
+        printf("No");
     }
     return 0;
 }
