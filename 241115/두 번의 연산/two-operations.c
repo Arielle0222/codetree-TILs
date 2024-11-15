@@ -11,7 +11,9 @@ int main() {
     }
 
     if (a%3==0) {
-        printf("%d",a/3);
+        a /=3;
+        
     }
+    printf("%d",a);
     return 0;
 }
