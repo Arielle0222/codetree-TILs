@@ -11,14 +11,14 @@ int main() {
         printf("YES\n");
     }
     else{
-        printf("No\n");
+        printf("NO\n");
     }
 
      if (a%5==0){
         printf("YES");
     }
     else{
-        printf("No");
+        printf("NO");
     }
     return 0;
 }
