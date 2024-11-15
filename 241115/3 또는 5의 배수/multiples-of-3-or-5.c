@@ -13,6 +13,7 @@ int main() {
     else{
         printf("No\n");
     }
+    
      if (a%5==0){
         printf("YES\n");
     }
