@@ -1,23 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    // 여기에 코드를 작성해주세요
+    // 변수 선언
+    int m;
 
-    int n;
-
-    scanf("%d",&n);
-
-    if (n == 12 || (1<=n<=2)){
-        printf("Winter");
-    }
-    if (3<=n<=5){
-        printf("Spring");
-    }
-    if (6<=n<=8){
-        printf("Summer");
-    }
-    if (9<=n<=11){
-        printf("Fall");
-    }
+	// 입력
+	scanf("%d", &m);
+    
+    // 출력
+	if(m >= 12 || m <= 2)
+		printf("Winter");
+	else if(m <= 5)
+		printf("Spring");
+	else if(m <= 8)
+		printf("Summer");
+	else
+		printf("Fall");
+		
     return 0;
 }
