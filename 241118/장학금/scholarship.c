@@ -8,7 +8,7 @@ int main() {
     scanf("%d %d",&m, &f);
 
     if (m>=90){
-        else if (f>=95){
+        if (f>=95){
             printf("100000");
         }
         else if (f>=90) {
