@@ -8,10 +8,10 @@ int main() {
     scanf("%d %d",&m, &f);
 
     if (m>=90){
-        if (f>=95){
+        else if (f>=95){
             printf("100000");
         }
-        if (f>=90) {
+        else if (f>=90) {
             printf("50000");
         }
         else {
