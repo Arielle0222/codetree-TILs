@@ -14,6 +14,9 @@ int main() {
         else if (f>=90) {
             printf("50000");
         }
+        else {
+            printf("0");
+        }
     }
     else {
         printf("0");
