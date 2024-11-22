@@ -6,7 +6,7 @@ int main() {
 
     scanf("%d", &n);
 
-    for (int i=1; i<n; i++){
+    for (int i=1; i<=100; i++){
         sum_val+=i;
 
         if (sum_val>=n){
