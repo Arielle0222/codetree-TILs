@@ -8,11 +8,12 @@ int main() {
 
     for (int i = 1; i<=n; i++){
         if (i%2==0||i%3==0||i%5==0){
-            cnt++;
+            continue; //위 조건이 만족하지 않을 때 카운팅 됨
         }
+        cnt++;
     }
 
-    printf("%d", n-cnt);
+    printf("%d", cnt);
     return 0;
 }
 
