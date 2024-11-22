@@ -13,9 +13,9 @@ int main() {
         if (a%2==1 && a%3==0){
             sum_val+=a;
         }
-        printf("%d", sum_val);
         i++;
     }
+    printf("%d", sum_val);
 
     return 0;
 }
