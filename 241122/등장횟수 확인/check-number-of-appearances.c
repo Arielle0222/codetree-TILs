@@ -8,7 +8,8 @@ int main() {
 
     for (int i=1;i<=5;i++){
         scanf("%d", &n);
-        if (i%2==0){
+
+        if (n%2==0){
             cnt++;
         }
     }
