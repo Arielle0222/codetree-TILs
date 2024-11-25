@@ -9,7 +9,7 @@ int main() {
         if (n>=1000){
             break;
         }
-        if (n%2==0){
+        else if (n%2==0){
             n = n * 3 + 1;
         }
         else if (n%2==1){
