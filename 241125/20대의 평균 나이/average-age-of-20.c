@@ -9,15 +9,14 @@ int main() {
         
         scanf("%d", &n);
 
-        if (n%20 <=9){
-            sum_val+=n;
-            cnt++;
-            continue;
-        }
-        else {
-            printf("%.2f",(double)sum_val/cnt);
+        //20대가 아닌 수가 들어오면 그 전까지의 평균 값을 출력하는 거임
+        if(n>=30 || n<=19) {
+            printf("%.2f", (double)sum_val/cnt);
             break;
         }
+
+        sum_val+=n;
+        cnt++;
     }
     return 0;
 }
