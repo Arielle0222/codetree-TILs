@@ -15,7 +15,7 @@ int main() {
             continue;
         }
         else {
-            printf("%.2lf",(double)sum_val/cnt);
+            printf("%.2f",(double)sum_val/cnt);
             break;
         }
     }
