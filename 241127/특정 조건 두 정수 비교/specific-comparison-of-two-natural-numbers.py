@@ -10,6 +10,6 @@ else :
 	print("0", end= " ")
 
 if (a==b) :
-	print("1", end=" ")
+	print("1")
 else :
 	print("0")
