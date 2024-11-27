@@ -7,7 +7,7 @@ int main() {
 
     scanf("%d", &n);
 
-    for (int i=n; i<=100l i++){
+    for (int i=n; i<=100; i++){
         printf("%d ", i);
     }
     return 0;
