@@ -4,7 +4,8 @@ a = arr[0]
 b = arr[1]
 
 if (a>0) :
-    for i in range(b):
+    for i in range(b): #b번 반복함
         print(a, end="")
-elif (a<0) :
+
+else:
     print(0)
