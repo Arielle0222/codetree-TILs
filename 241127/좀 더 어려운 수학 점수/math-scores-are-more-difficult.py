@@ -10,7 +10,7 @@ b_e = arr_b[1]
 
 
 if (a_m > b_m) :
-    prit("A")
+    print("A")
 elif ((a_m == b_m) and (a_e > b_e)) :
     print("A")
 else :
