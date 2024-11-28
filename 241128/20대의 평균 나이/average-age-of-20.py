@@ -8,6 +8,6 @@ while True :
 		cnt+=1
 		sum_val+=n
 		
-	elif (n%20>=10) :
+	else:
 		print(f"{sum_val/cnt:.2f}")
 		break
