@@ -4,7 +4,7 @@ sum_val = 0
 while True :
 	n = int(input())
 
-	if (n%20<10) :
+	if (20 <= n < 30) :
 		cnt+=1
 		sum_val+=n
 		
