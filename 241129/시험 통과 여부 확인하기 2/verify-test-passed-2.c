@@ -5,9 +5,10 @@ int main() {
     scanf("%d", &n); // 학생 수 입력
 
     int cnt = 0; // 합격자 수
-
+    int sub[4];
+    
     for (int j = 1; j <= n; j++) {
-        int sub[4];
+        
         int total = 0;
 
         // 4과목 점수 입력 및 합계 계산
