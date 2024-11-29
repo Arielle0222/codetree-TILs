@@ -18,7 +18,7 @@ int main() {
 
         // 평균 계산 및 합격 여부 판단
         double avg = (double)total / 4;
-        if (avg > 60) {
+        if (avg >= 60) {
             printf("pass\n");
             cnt++;
         } else {
