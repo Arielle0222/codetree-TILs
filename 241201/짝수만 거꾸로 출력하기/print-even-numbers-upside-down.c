@@ -13,11 +13,13 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // 역순으로 짝수만 출력
+    // 배열 역순으로 출력 (짝수만)
     for (int i = n - 1; i >= 0; i--) {
-        if (arr[i] % 2 == 0) { // 짝수인 경우
-            printf("%d ", arr[i]);
+        if (arr[i] % 2 != 0) { // 홀수면 continue
+            continue;
         }
+        // 짝수일 경우 출력
+        printf("%d ", arr[i]);
     }
 
     return 0;
