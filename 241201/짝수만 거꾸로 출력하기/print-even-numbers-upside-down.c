@@ -1,27 +1,24 @@
 #include <stdio.h>
 
 int main() {
-    // 여기에 코드를 작성해주세요.
-
     int n;
+
+    // 정수 n 입력
     scanf("%d", &n);
+
     int arr[n];
-    
-    for(int i=-0; i<n; i++){   
-        scanf("%d", arr[i]);
+
+    // n개의 정수 입력
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
 
+    // 역순으로 짝수만 출력
     for (int i = n - 1; i >= 0; i--) {
-        if (arr[i] % 2 != 0) { // 홀수면 continue
-            continue;
+        if (arr[i] % 2 == 0) { // 짝수인 경우
+            printf("%d ", arr[i]);
         }
-        else{
-            // 짝수일 경우 출력
-        printf("%d ", arr[i]);
-        }
-  
     }
 
     return 0;
 }
-
