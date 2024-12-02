@@ -1,22 +1,16 @@
-def print_square(n):
-    arr = [0] * n  # 크기 N의 배열 생성
+# 변수 선언 및 입력:
+input_n = int(input())
 
-    # 배열에 숫자 채우기
-    current_value = 1
-    for i in range(n):
-        arr[i] = []  # 각 행에 리스트 초기화
-        for j in range(n):
-            arr[i].append(current_value)
-            current_value += 1
-            if current_value > 9:  # 9 다음에는 1로 초기화
-                current_value = 1
 
-    # 배열 출력
-    for i in range(n):
-        for j in range(n):
-            print(arr[i][j], end=" ")
-        print()  # 행을 출력한 후 줄바꿈
+# n개의 줄에 걸쳐 특정 문자열을 출력하는 함수입니다.
+def print_num(n):
+    cnt = 1
+    for _ in range(n):
+        for _ in range(n):
+            print(cnt, end=" ")
+            cnt += 1
+            if cnt == 10:
+                cnt = 1
+        print()
 
-# 입력 받기
-n = int(input())
-print_square(n)
+print_num(input_n)
