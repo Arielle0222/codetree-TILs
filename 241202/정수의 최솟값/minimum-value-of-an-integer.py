@@ -28,6 +28,6 @@ def print_min(a,b,c):
     else :
         return c
     
-A,B,C = tuple(map(int, input().split()))
+A,B,C = list(map(int, input().split()))
 result = print_min(A,B,C)
 print(result)
