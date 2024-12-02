@@ -19,6 +19,7 @@ def add(*args):
 
 
 
+"""
 def print_min(a,b,c):
     #a 
     if (a<=b and a<=c) :
@@ -30,4 +31,14 @@ def print_min(a,b,c):
     
 A,B,C = list(map(int, input().split()))
 result = print_min(A,B,C)
+print(result)
+"""
+
+def print_min(*args):
+    # 전달된 인자 중 최소값을 반환
+    return min(args)
+
+# 사용자 입력 받기
+A, B, C = map(int, input().split())
+result = print_min(A, B, C)
 print(result)
