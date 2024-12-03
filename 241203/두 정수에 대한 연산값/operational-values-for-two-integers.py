@@ -14,7 +14,7 @@ if (a>=b) :
 else:
     print(small_prod_2(a), end=" ")
 
-if (a<=b) :
+if (a<b) :
     print(big_plus_25(b), end=" ")
 else:
     print(small_prod_2(a), end=" ")
