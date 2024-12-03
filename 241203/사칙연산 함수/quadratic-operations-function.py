@@ -4,9 +4,7 @@
 '''
 
 def calculate(a,o,c):
-    if (o not in {'+', '-', '/', '*'}) :
-        print("False")
-    elif (o == '+') :
+    if (o == '+') :
         return a+c 
     elif (o == '-') :
         return a-c 
@@ -20,5 +18,8 @@ arr = list(input().split( ))
 a = int(arr[0])
 o = arr[1]
 c = int(arr[2])
+
+if (o not in {'+', '-', '/', '*'}) :
+        print("false")
 
 print(f"{a} {o} {c} =", calculate(a,o,c))
