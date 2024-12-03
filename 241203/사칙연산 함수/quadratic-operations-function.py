@@ -20,6 +20,6 @@ o = arr[1]
 c = int(arr[2])
 
 if (o not in {'+', '-', '/', '*'}) :
-    print("false")
+    print("False")
 else :
     print(f"{a} {o} {c} =", calculate(a,o,c))
