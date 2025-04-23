@@ -1,3 +1,5 @@
+from collections import deque
+
 N = int(input())
 
 command = []
@@ -11,14 +13,15 @@ for _ in range(N):
     else:
         num.append(0)
 
-# Please write your code here.
+dq = deque()
 
-#print(N)
-print(num[0])
-print(num[1])
-print(num[3])
-print(num[2])
-print(num[0])
-print(num[2])
-
-#[10, 20, 1, 2, 0, 0, 0, 1, 0]
+for i in range(N):
+    if command[i] == "push_back":
+        dq.append(num[i])
+    elif command[i] == "pop_back":
+        if dq:
+            dq.pop()
+    elif command[i] == "size":
+        print(len(dq))
+    elif command[i] == "get":
+        print(dq[num[i] - 1])
