@@ -8,7 +8,7 @@ int main() {
 
     cin >> a_m >> a_e >> b_m >> b_e;
 
-    if (a_m > b_m && a_m > b_m) {
+    if (a_m > b_m && a_e > b_e) {
         cout << 1;
     }
     else cout << 0;
