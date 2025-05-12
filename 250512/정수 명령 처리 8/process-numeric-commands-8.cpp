@@ -33,7 +33,9 @@ int main() {
             //cout << l.back() << endl;
         }
         else if (command[i] == "pop_front") {
-            if (l.empty()) cout << -1 << '\n';
+            if (l.empty()) {
+                cout << -1 << '\n';
+            }    
             else {
                 cout << l.front() << '\n';
                 l.pop_front();
