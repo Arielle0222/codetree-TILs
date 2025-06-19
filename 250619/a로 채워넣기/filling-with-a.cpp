@@ -9,8 +9,8 @@ int main() {
     cin >> str;
 
     str[1] = 'a';
-    //str[-2] = 'a';
-    str[str.size() - 2] = 'a';
+    //str[-2] = 'a'; //illegal there is no negative int
+    str[str.length() - 2] = 'a';
 
     cout << str;
     return 0;
