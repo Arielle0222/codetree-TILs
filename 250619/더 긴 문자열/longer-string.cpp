@@ -12,8 +12,12 @@ int main() {
     if (str_1.length() > str_2.length() ){
         cout << str_1 << " " << str_1.length();
     }
-    else{
+    else if (str_2.length() > str_1.length() ){
         cout << str_2 << " " << str_2.length();
+    }
+   
+    else {
+        cout << "same";
     }
     return 0;
 }
