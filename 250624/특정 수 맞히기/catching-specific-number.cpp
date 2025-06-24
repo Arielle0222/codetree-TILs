@@ -4,18 +4,19 @@ using namespace std;
 int main() {
     // Please write your code here.
 
-    int n;
-
-    while(n!=25) {
+    while(1){
+        int n;
         cin >> n;
 
-        if (n<25) {
-            cout << "Higher" << endl;;
-        }
-        else if(n>25)
+        if(n<25) 
+            cout << "Higher" << endl;
+        else if(n>25) 
             cout << "Lower" << endl;
+        else{
+            cout << "Good";
+            break //{}이 없으면 break가 else 안에 포함이 안됨
+        }
     }
-
-    cout << "Good";
     return 0;
+
 }
