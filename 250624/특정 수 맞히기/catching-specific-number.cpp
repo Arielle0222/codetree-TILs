@@ -15,7 +15,7 @@ int main() {
         else{
             cout << "Good";
             //{}이 없으면 break가 else 안에 포함이 안됨
-            break    
+            break;    
         }
     }
     return 0;
