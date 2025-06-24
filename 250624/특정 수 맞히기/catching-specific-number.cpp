@@ -14,7 +14,8 @@ int main() {
             cout << "Lower" << endl;
         else{
             cout << "Good";
-            break //{}이 없으면 break가 else 안에 포함이 안됨
+            //{}이 없으면 break가 else 안에 포함이 안됨
+            break    
         }
     }
     return 0;
