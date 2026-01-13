@@ -5,7 +5,8 @@ using namespace std;
 int main() {
     int N, M;
 
-    cin >> N,M;
+    cin >> N;
+    cin >> M;
     
     // Please write your code here.
     while (N>0) {
