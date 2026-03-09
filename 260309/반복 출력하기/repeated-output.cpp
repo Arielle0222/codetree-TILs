@@ -5,9 +5,9 @@ using namespace std;
 //int N;
 void Make_string(int N){
     for (int i=0; i<N; i++){
-        cout << "12345^&*()_";
+        cout << "12345^&*()_" << endl;
     }
-    cout << endl;
+    //cout << endl;
 }
 
 int main() {
