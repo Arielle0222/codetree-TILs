@@ -11,7 +11,7 @@ void Make_string(int N){
 }
 
 int main() {
-    int M;
+    int N;
     cin >> N;
 
     // Please write your code here.
