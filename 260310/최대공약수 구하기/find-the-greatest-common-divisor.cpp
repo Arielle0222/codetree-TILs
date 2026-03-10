@@ -4,10 +4,13 @@
 using namespace std;
 
 void Make_GCD(int n, int m){
-    for(int i=0; i=min(n,m); i++){
+    int gcd = 1;
+
+    for(int i=1; i<min(n,m); i++){
         if(n%i == 0 && m%i ==0)
-            cout << i;
+            gcd = i;
     }
+    cout << gcd;
 }
 
 int n, m;
