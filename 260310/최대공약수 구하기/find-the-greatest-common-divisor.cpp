@@ -4,8 +4,9 @@
 using namespace std;
 
 void Make_GCD(int n, int m){
-    int gcd = 1;
-
+    //int gcd = 1; //0으로 나눌 수가 없음
+    int gcd;
+    
     for(int i=1; i<=min(n,m); i++){
         if(n%i == 0 && m%i ==0)
             gcd = i;
