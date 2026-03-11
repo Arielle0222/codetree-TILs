@@ -16,8 +16,10 @@ int Make_total_and_division5(int n){
 
 int main() {
     int N;
-    cin >> N;
-    
+    //cin >> N;
+    // 입력받는 과정에서 에러나면 그냥 return 0으로 프로그램 종료해라
+    if (!(cin >> N)) return 0; 
+
     int result = Make_total_and_division5(N);
     cout << result;
 
