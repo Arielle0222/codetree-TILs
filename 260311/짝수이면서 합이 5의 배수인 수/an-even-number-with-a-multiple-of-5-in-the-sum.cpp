@@ -6,7 +6,7 @@ string Find_Yes_or_No(int n){
     int a,b;
     n=a*10+b;
 
-    if(n%5==0){
+    if(n%5==0 && n%2==0){
         return "Yes";
     }
     else{
